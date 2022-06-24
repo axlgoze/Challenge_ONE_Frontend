@@ -42,8 +42,32 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
-
+    border: solid seagreen;
+    width: 100%;
+    height: auto;
 }
+
+.menu__header{
+    background-color: aqua;
+    width: 100%;
+    height: auto;
+    padding: 17px;
+}
+
+.menu__header img, h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__header h3{
+    margin-left: 9px;
+}
+
+.menu__header img{
+    vertical-align: middle;
+}
+
+
 
 /*Sección Title*/
 
