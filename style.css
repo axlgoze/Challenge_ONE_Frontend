@@ -42,7 +42,7 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
-    border: solid seagreen;
+    /* border: solid seagreen; */
     width: 100%;
     height: auto;
 }
@@ -70,14 +70,31 @@ section.menu{
     height: 18px;   
 }
 
-
-
+.main-nav{
+    display: none;
+}
 
 /*Sección Title*/
-
 section.title{
+    /* border: solid fuchsia; */
+    display: flex;
+}
+
+.title__profile{
+    width: 98px;
+    height: 98px;
+    margin-left: 16px;
+}
+
+.title__container{
+    /* background-color: chocolate; */
+    margin: 0 16px;
 
 }
+
+
+
+
 
 /*Sección About*/
 
