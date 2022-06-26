@@ -246,12 +246,49 @@ section.hobbies{
 }
 
 
-
 /* Experiencia Académica*/
 
 section.academic{
-
+    background-color: var(--primary-blue);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
+
+.academic__title{
+    /* border: solid dodgerblue; */
+    padding-top: 32px;
+    text-align: center;
+    font-size: 2.2rem;
+    color: var(--primary-text-color);
+}
+
+.academic__courses{
+    width: 100%;
+    border: solid fuchsia;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+}
+
+.academic__courses__box{
+    border: solid forestgreen;
+    width: 100%;
+    /* margin: 20px; */
+    height: auto;
+    /* align-items: center; */
+}
+
+.academic__courses__list{
+    border: solid palegreen;
+}
+
+.academic__courses__item__img{
+    
+}
+
+
+
 
 /* experiencia*/
 
