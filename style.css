@@ -76,8 +76,9 @@ section.menu{
 
 /*Sección Title*/
 section.title{
-    /* border: solid fuchsia; */
+    border: solid fuchsia;
     display: flex;
+    padding: 16px;
 }
 
 .title__profile{
