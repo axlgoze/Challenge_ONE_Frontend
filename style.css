@@ -2,6 +2,7 @@
 :root{
 -cor-de-fundo: #F5F5F5;
 --cor-de-link: #000;
+--primary-blue: #EAF2FD;
 }
 
 *{
@@ -119,7 +120,8 @@ section.title{
 /*Sección About*/
 
 section.about{
-    border: solid fuchsia 1px;
+    /* border: solid fuchsia 1px; */
+    background-color: var(--primary-blue);
     padding: 16px;
 }
 
