@@ -57,10 +57,6 @@ section.menu{
     align-items: center;
 }
 
-.menu__header img, h3{
-    justify-content: flex-start;
-}
-
 .menu__header h3{
     margin-left: 9px;
 }
@@ -69,16 +65,12 @@ section.menu{
     margin-left: 29px;
 }
 
-
 .menu__header img{
-    
+    width: 18px;
+    height: 18px;   
 }
 
-.menu__list__item__contato{
-    display: flex;
-    justify-content: flex-end;
 
-}
 
 
 /*Sección Title*/
