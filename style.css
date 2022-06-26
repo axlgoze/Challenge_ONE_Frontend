@@ -52,21 +52,33 @@ section.menu{
     width: 100%;
     height: auto;
     padding: 17px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 
 .menu__header img, h3{
-    display: inline-block;
-    vertical-align: middle;
+    justify-content: flex-start;
 }
 
 .menu__header h3{
     margin-left: 9px;
 }
 
-.menu__header img{
-    vertical-align: middle;
+.menu__header li{
+    margin-left: 29px;
 }
 
+
+.menu__header img{
+    
+}
+
+.menu__list__item__contato{
+    display: flex;
+    justify-content: flex-end;
+
+}
 
 
 /*Sección Title*/
