@@ -48,7 +48,7 @@ section.menu{
 }
 
 .menu__header{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100%;
     height: auto;
     padding: 17px;
@@ -76,7 +76,7 @@ section.menu{
 
 /*Sección Title*/
 section.title{
-    border: solid fuchsia;
+    /* border: solid fuchsia; */
     display: flex;
     padding: 16px;
 }
@@ -86,10 +86,9 @@ section.title{
     height: 98px;
 }
 
-.title__container{
-    /* background-color: chocolate; */
-    /* border:  solid purple 1px; */
-}
+/* .title__container{
+    border:  solid purple 1px;
+} */
 
 .title__container h2{
     font-size: 2rem;
@@ -117,16 +116,31 @@ section.title{
     font-weight: 600;
 }
 
-
-
-
-
-
 /*Sección About*/
 
 section.about{
-
+    border: solid fuchsia 1px;
+    padding: 16px;
 }
+
+.about__container h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.about__paragraph{
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: var(--cor-de-link);
+}
+
+.about__container img{
+    width: 140px;
+    height: 52px;
+}
+
 
 /*Sección Hobbies*/
 
