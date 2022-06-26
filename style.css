@@ -3,6 +3,8 @@
 -cor-de-fundo: #F5F5F5;
 --cor-de-link: #000;
 --primary-blue: #EAF2FD;
+--main-background: #E5E5E5;
+--primary-text-color: #464646;
 }
 
 *{
@@ -96,6 +98,7 @@ section.title{
     font-weight: 700;
     line-height: 2.2rem;
     text-align: justify;
+    color: var(--primary-text-color);
 }
 
 .title__subsection{
@@ -103,6 +106,7 @@ section.title{
     font-weight: 400;
     line-height: 1.9rem;
     text-align: justify;
+    color: var(--primary-text-color);
 }
 
 .title__network{
@@ -117,6 +121,10 @@ section.title{
     font-weight: 600;
 }
 
+.title__network li a{
+    color: var(--primary-text-color);
+}
+
 /*Sección About*/
 
 section.about{
@@ -128,6 +136,7 @@ section.about{
 .about__container h3{
     font-size: 2.2rem;
     font-weight: 700;
+    color: var(--primary-text-color);
 }
 
 .about__paragraph{
@@ -136,6 +145,7 @@ section.about{
     font-weight: 400;
     line-height: 1.9rem;
     color: var(--cor-de-link);
+    color: var(--primary-text-color);
 }
 
 .about__container img{
@@ -143,6 +153,21 @@ section.about{
     height: 52px;
 }
 
+
+/*Sección skills*/
+
+section.skills{
+    border: solid violet;
+    padding: 0px 16px 10px 16px;
+    background-color: var(--main-background);
+}
+
+.skills h3{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
 
 /*Sección Hobbies*/
 
