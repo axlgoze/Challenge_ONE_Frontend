@@ -3,3 +3,4 @@
 ### To do list
 
 - implementar mobile fisrt
+- centrar img en vista mobile
