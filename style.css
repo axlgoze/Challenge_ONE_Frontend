@@ -3,7 +3,7 @@
 -cor-de-fundo: #F5F5F5;
 --cor-de-link: #000;
 --primary-blue: #EAF2FD;
---main-background: #E5E5E5;
+--main-background: #f5f5f5;
 --primary-text-color: #464646;
 }
 
@@ -21,6 +21,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    background-color: var(--main-background);
 }
 ol, ul,li {
     list-style: none;
@@ -157,9 +158,9 @@ section.about{
 /*Sección skills*/
 
 section.skills{
-    border: solid violet;
+    /* border: solid violet; */
     padding: 0px 16px 10px 16px;
-    background-color: var(--main-background);
+    margin-top: 1.6rem;
 }
 
 .skills h3{
@@ -168,6 +169,48 @@ section.skills{
     font-weight: 700;
     color: var(--primary-text-color);
 }
+
+.skills__line{
+    /* border: solid rgb(0, 255, 119) 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.skills__box{
+    /* border: solid 1px blue; */
+    width: 50%;
+}
+
+.skills ul{
+    height: 118px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center */
+    align-content: flex-end;
+    padding: 63px 50px 10px 12px;
+    margin: 12px;
+}
+
+.skills__name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    /* margin-top: 10px; */
+    line-height: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*Sección Hobbies*/
 
