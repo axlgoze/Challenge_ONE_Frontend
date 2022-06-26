@@ -202,21 +202,50 @@ section.skills{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*Sección Hobbies*/
 
 section.hobbies{
-    
+    padding: 0px 16px 10px 16px;
+    margin-top: 1.6rem;
 }
+
+.hobbies__title{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.hobbies__line{
+    /* border: solid rgb(0, 255, 119) 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.hobbies__box{
+    width: 50%;
+}
+
+.hobbies ul{
+    height: 118px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 50px 50px 10px 12px;
+    margin: 12px;
+}
+
+.hobbies__name{
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    line-height: 1.8rem;
+}
+
+
 
 /* Experiencia Académica*/
 
@@ -253,7 +282,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*title*/
 
-/*Skills*/
+/*skills*/
 
 /*Hobbies*/
 
