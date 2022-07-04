@@ -267,38 +267,51 @@ section.academic{
 
 .academic__title{
     /* border: solid dodgerblue; */
-    padding-top: 32px;
+    padding-top: 16px;
     text-align: center;
     font-size: 2.2rem;
     color: var(--primary-text-color);
 }
 
 .academic__courses{
+    /* border: solid fuchsia; */
     width: 100%;
-    border: solid fuchsia;
+    height: 661px;
     display: flex;
     flex-direction: column;
     margin: 16px 0;
 }
 
 .academic__courses__box{
-    border: solid forestgreen;
-    width: 100%;
-    /* margin: 20px; */
+    /* border: solid forestgreen; */
+    /* width: 100%; */
+    width: 296px;
     height: auto;
-    /* align-items: center; */
-}
-
-.academic__courses__list{
-    border: solid palegreen;
+    margin: 0 auto;
 }
 
 .academic__courses__item__img{
-    
+    text-align: center;
 }
 
+.academic__courses__item__title, .academic__courses__item__subtitle{
+    text-align: center;
+    margin: 8px 0 8px 0;
+}
 
+.academic__courses__item__title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: var(--primary-text-color);
+}
 
+.academic__courses__item__subtitle{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: var(--primary-text-color);
+}
 
 /* experiencia*/
 
