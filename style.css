@@ -376,6 +376,7 @@ section.experience{
     /* border: solid 1px gold; */
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 76px;
 }
 
 .experiencia__botao--repo, .experience__botao--demo{
@@ -404,6 +405,11 @@ section.experience{
     background-color: white;
     color: #2A7AE4;
 }
+
+/* .experience__img{
+    margin-top: 76px;
+    margin-bottom: ;
+} */
 
 
 
