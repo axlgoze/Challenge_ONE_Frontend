@@ -8,3 +8,5 @@
 - adaptar primeras secciones (because reset.css)
 - agregar enlaces de repositorios y demos de proyectos
 - cambiar posgrado en diseño por imagen de microsoft launch x
+- Colocar imagen de juego del ahorcado en seccion experiencia
+- agregar funcionalidad hover a inputs
