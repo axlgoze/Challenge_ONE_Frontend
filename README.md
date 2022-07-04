@@ -6,3 +6,5 @@
 - centrar img en vista mobile
 - alinear correctamente contenido de skills
 - adaptar primeras secciones (because reset.css)
+- agregar enlaces de repositorios y demos de proyectos
+- cambiar posgrado en diseño por imagen de microsoft launch x
