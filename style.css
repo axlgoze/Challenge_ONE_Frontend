@@ -580,6 +580,12 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 }
 
+
+.tudo{
+    min-width: 320px;
+    max-width: 425px;
+    margin: 0 auto;
+}
 /*Mobile*/
 @media (min-width: 425px) {
 
