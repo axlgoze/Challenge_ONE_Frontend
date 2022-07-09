@@ -64,10 +64,13 @@ section.menu{
 
 .menu__header h3{
     margin-left: 9px;
+    font-size: 1.6rem;
 }
 
 .menu__header li{
     margin-left: 29px;
+    font-size: 1.4rem;
+
 }
 
 .menu__header img{
@@ -127,6 +130,10 @@ section.title{
     font-weight: 600;
 }
 
+.title__network__item{
+    font-size: 1.07rem;
+}
+
 .title__network li a{
     color: var(--primary-text-color);
 }
@@ -172,6 +179,9 @@ section.skills{
     /* border: solid violet; */
     padding: 0px 16px 10px 16px;
     margin-top: 1.6rem;
+    min-width: 320px;
+    max-width: 320px;
+    margin: 0 auto;
 }
 
 .skills h3{
@@ -218,6 +228,9 @@ section.skills{
 section.hobbies{
     padding: 0px 16px 10px 16px;
     margin-top: 1.6rem;
+    min-width: 320px;
+    max-width: 320px;
+    margin: 0 auto;
 }
 
 .hobbies__title{

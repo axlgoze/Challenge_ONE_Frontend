@@ -1,0 +1,110 @@
+:root{
+    -cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --primary-blue: #EAF2FD;
+    --main-background: #f5f5f5;
+    --primary-text-color: #464646;
+    --primary-button-color: #2A7AE4;
+    }
+
+    
+.tudo{
+    min-width: 621px;
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+.secciones{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu__title{
+    margin-right: 399px;
+}
+
+.menu__header li{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: space-evenly; */
+    /* border: solid darkblue; */
+    padding: 20px 0 0 0;
+}
+
+.title__profile{
+    width: 146px;
+    height: 146px;
+}
+
+.title__container{
+    /* border: solid greenyellow; */
+    padding: 0 32px 0 0;
+}
+
+.title__subsection{
+    padding-right: 40px;
+}
+
+.title__network{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title__network__item{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.academic__courses{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.academic__title{
+    margin-top: 32px;
+}
+
+.academic__courses__box{
+    /* border: #2A7AE4 solid; */
+    width: 250px;
+    height: 280px;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+
+.academic__courses__list{
+    margin: 20px;
+}
+
+.experience__section__title{
+    color: var(--primary-text-color);
+}
+
+.experience__projects{
+    display: flex;
+    flex-direction: row;
+}
+
+.formcontato__contacto{
+    width: 100%;
+
+}
+
+.formcontato__text{
+    width: 85%;
+    /* margin: 0 32px; */
+
+}
+
+.formcontato__textarea{
+    width: 100%;
+}
