@@ -1,12 +1,16 @@
 # Primer Challenge Frontend de Alura ONE latam
 
+## CV terminado, reto cumplido 🥳
+
+![sitio](./assets/sitio.JPG)
+
 Para ingresar al sitio da click en el siguiente enlace:
 
 [CV_Challenge](https://axlgoze.github.io/Challenge_ONE_Frontend/)
 
 ### To do list
 
-- implementar mobile fisrt
+- ~~implementar mobile fisrt~~
 - ~~centrar img en vista mobile~~
 - ~~alinear correctamente contenido de skills~~
 - ~~adaptar primeras secciones (because reset.css)~~
@@ -15,4 +19,5 @@ Para ingresar al sitio da click en el siguiente enlace:
 - ~~Colocar imagen de juego del ahorcado en seccion experiencia~~
 - agregar funcionalidad hover a inputs (investigar como hacer para cuando este activo cambie su estilo)
 - implementar nuevo patron en version desktop
-- implementar funcionalidad JavaScript
+- ~~implementar funcionalidad JavaScript~~
+- añadir boton para convertir documento a PDF
