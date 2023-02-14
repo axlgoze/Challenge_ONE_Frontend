@@ -1,15 +1,22 @@
-# Primer Challenge Frontend de Alura ONE latam
+# Frontend Challenge *Curriculum vitae*
 
-## CV terminado, reto cumplido 🥳
+## CV
 
 ![sitio](./assets/sitio.JPG)
 
-Para ingresar al sitio da click en el siguiente enlace:
+Para ingresar al CV interactivo haz click en el siguiente enlace:
 
-[CV_Challenge](https://axlgoze.github.io/Challenge_ONE_Frontend/)
+[CV_Reyes_Axel](https://axlgoze.github.io/Challenge_ONE_Frontend/)
 
 ### To do list
 
+- ~~verificar responsive design~~
+- Elegir paleta de colores
+- Actualizar assets file
+- Elaborar documentación con wireframe
+- Elaborar copywritring
+- Actualizar información
+- añadir boton para convertir documento a PDF
 - ~~implementar mobile fisrt~~
 - ~~centrar img en vista mobile~~
 - ~~alinear correctamente contenido de skills~~
@@ -18,6 +25,4 @@ Para ingresar al sitio da click en el siguiente enlace:
 - ~~cambiar posgrado en diseño por imagen de microsoft launch x~~
 - ~~Colocar imagen de juego del ahorcado en seccion experiencia~~
 - agregar funcionalidad hover a inputs (investigar como hacer para cuando este activo cambie su estilo)
-- implementar nuevo patron en version desktop
 - ~~implementar funcionalidad JavaScript~~
-- añadir boton para convertir documento a PDF
