@@ -1,0 +1,6 @@
+Paleta de colores para CV Update 2023
+
+#3DB2FF blue
+#FFEDDA beige
+#FFB830 yellow
+#FF2442 Red
