@@ -431,6 +431,38 @@ section.experience{
     margin-bottom: 32px;
 }
 
+.experience__description2{
+    /* border: solid 1px gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+    text-align: justify;
+}
+
+.experience__description2 h4, h5{
+    font-weight: 700;
+}
+
+/* experiencia otros */
+.experience__projects2{
+    /* border: solid fuchsia; */
+    width: 100%;
+    /* height: 661px; */
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    background-color: var(--primary-blue);
+}
+
+.experiencie__box2{
+    /* border: solid forestgreen; */
+    /* width: 100%; */
+    width: 296px;
+    height: auto;
+    margin: 0 auto;
+}
+
 .experiencia__botao--repo, .experience__botao--demo{
     border: solid var(--primary-button-color) 1px;
     padding: 6px;
@@ -456,6 +488,104 @@ section.experience{
 .experience__botao--demo:hover{
     background-color: white;
     color: #2A7AE4;
+}
+
+section.languages{
+    padding: 0px 16px 10px 16px;
+    margin-top: 1.6rem;
+    min-width: 320px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.languages__title{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.languages__line{
+    /* border: solid rgb(0, 255, 119) 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.languages__box{
+    width: 50%;
+}
+
+.languages ul{
+    height: 118px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 50px 50px 10px 12px;
+    margin: 12px;
+}
+
+.languages__name{
+    /* text-align: justify; */
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    line-height: 1.8rem;
+}
+
+.languages__img img{
+    width: 28px;
+    height: 28px;
+}
+
+section.intereses{
+    padding: 0px 16px 10px 16px;
+    margin-top: 1.6rem;
+    min-width: 320px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.intereses__title{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.intereses__line{
+    /* border: solid rgb(0, 255, 119) 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.intereses__box{
+    width: 50%;
+}
+
+.intereses ul{
+    height: 118px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 50px 50px 10px 12px;
+    margin: 12px;
+}
+
+.intereses__name{
+    /* text-align: justify; */
+    font-size: .9rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    line-height: 1.8rem;
+}
+
+.intereses__img img{
+    width: 28px;
+    height: 28px;
 }
 
 /*Contacto*/
