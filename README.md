@@ -20,11 +20,11 @@ Para ingresar al CV interactivo haz click en el siguiente enlace:
 - Revisar imagen de batata
 - integrar barras de progreso en competencias*
 - Hacer menu sticky*
-- Modificar nombre completo, completar cuando se amplie a tablet y desktop o reducir tamaño fuente
-- acualizar pantallas en readme file
+- ~~Modificar nombre completo, completar cuando se amplie a tablet y desktop o reducir tamaño fuente~~
+- ~~acualizar pantallas en readme file~~
 - añadir boton para convertir documento a PDF*
 - trabajar logica JS
-- responsive design: ~~mobile~~ tablet, desktop
+- responsive design: ~~mobile~~ ~~tablet~~, desktop
 - agregar funcionalidad hover a: fichas skills y otras. inputs (investigar como hacer para cuando este activo cambie su estilo)
 - agregar documentacion a gitignore
 

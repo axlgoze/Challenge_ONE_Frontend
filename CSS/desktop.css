@@ -1,19 +1,67 @@
 :root{
     -cor-de-fundo: #F5F5F5;
     --cor-de-link: #000;
-    --primary-blue: #EAF2FD;
+    /* --primary-blue: #EAF2FD; */
+    --primary-blue: #EAF6F6;
     --main-background: #f5f5f5;
     --primary-text-color: #464646;
-    --primary-button-color: #2A7AE4;
+    --primary-text-red:#FF2442;
+    --primary-text-yellow:#FFB830;
+    --primary-button-color: #3DB2FF;
     }
 
     
 .tudo{
-    min-width: 1200px;
+    min-width: 1024px;
     margin: 0 auto;
 }
 
 /*Menu*/
+.menu__header{
+    /* border: #2A7AE4 solid; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav{
+    /* display: contents;
+    position: absolute;
+    top: 110px;
+    right: 0; */
+    display: contents;
+    position: relative;
+    border: rgb(139, 19, 97) solid;
+    margin: 0 auto;
+    /*
+    position: sticky;
+    justify-content: space-between; */
+}
+
+.menu__list{
+    width: 100%;
+    /* background-color: var(--primary-text-yellow); */
+    height: 28px;
+    position: absolute;
+    top: 110px;
+    /* right: 0; */
+}
+
+.menu__list__item{
+    font-size: 1.7rem;
+    display: inline;
+    margin: 0 29px 0 15px; 
+}
+
+.menu__list__item:hover{
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: var(--primary-text-yellow);
+}
+
+.menu__list__item:hover a{
+    
+    color: white;
+}
 
 /*Titulo*/
 

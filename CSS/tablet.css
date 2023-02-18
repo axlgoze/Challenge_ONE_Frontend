@@ -77,9 +77,9 @@
     color: var(--primary-text-color);
 }
 
-section.experience{
+/* section.experience{
     border: coral solid;
-}
+} */
 
 /* experiencia profesional */
 .experience__professional--slider{
