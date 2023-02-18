@@ -9,8 +9,8 @@
 
     
 .tudo{
-    min-width: 621px;
-    max-width: 810px;
+    min-width: 768px;
+    max-width: 1199px;
     margin: 0 auto;
 }
 
@@ -21,13 +21,27 @@
 }
 
 .menu__title{
-    margin-right: 399px;
+    /* margin-right: 199px; */
 }
 
 .menu__header li{
     font-size: 1.6rem;
     font-weight: 700;
     color: var(--primary-text-color);
+}
+
+.menu__list__item__contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__header h3{
+    font-size: 1.7rem;
+}
+
+.menu__header img{
+    width: 60px;
+    height: 60px;
 }
 
 .title__div{
@@ -63,9 +77,49 @@
     color: var(--primary-text-color);
 }
 
+section.experience{
+    border: coral solid;
+}
+
+/* experiencia profesional */
+.experience__professional--slider{
+    display: flex;
+    /* height: 310px; */
+    height: 340px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 0 30px;
+}
+
+.experience__professional--card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 97%;
+    min-width: 300px;
+    max-width: 300px;
+    height: 250px;
+    margin: 20px 11px 0;
+    padding: 0 15px; /* para crear un pequeño borde */
+    background-color: var(--color-light);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.experience__professional--card .experience__img{
+    width: 150px;
+    height: 90px;
+    align-self: center;
+
+
+
 .academic__courses{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
 }
 
@@ -76,7 +130,7 @@
 .academic__courses__box{
     /* border: #2A7AE4 solid; */
     width: 250px;
-    height: 280px;
+    height: 230px;
     justify-content: center;
     /* align-items: flex-start; */
 }

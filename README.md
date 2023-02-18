@@ -17,7 +17,7 @@ Para ingresar al CV interactivo haz click en el siguiente enlace:
 
 
 ### To do list
-
+- Revisar imagen de batata
 - integrar barras de progreso en competencias*
 - Hacer menu sticky*
 - Modificar nombre completo, completar cuando se amplie a tablet y desktop o reducir tamaño fuente

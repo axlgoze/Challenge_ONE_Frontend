@@ -1,3 +1,18 @@
+:root{
+    -cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --primary-blue: #EAF2FD;
+    --main-background: #f5f5f5;
+    --primary-text-color: #464646;
+    --primary-button-color: #2A7AE4;
+    }
+
+    
+.tudo{
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
 /*Menu*/
 
 /*Titulo*/
