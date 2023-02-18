@@ -63,6 +63,10 @@
     color: white;
 }
 
+.zoom:hover{
+    transform: scale(1.1);
+}
+
 /*Titulo*/
 
 /*Sección sobre mi*/

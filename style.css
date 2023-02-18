@@ -748,7 +748,9 @@ section.footer{
     text-align: center;
     border-radius: 9px;
 }
-
+.zoom:hover{
+    transform: scale(1.1);
+}
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 

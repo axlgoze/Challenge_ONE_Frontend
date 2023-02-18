@@ -1,6 +1,10 @@
 # Frontend Challenge: *Curriculum Vitae*
 
-## UI original
+Para ingresar al CV interactivo haz click en el siguiente enlace:
+
+[CV_Reyes_Axel](https://axlgoze.github.io/Challenge_ONE_Frontend/)
+
+## UI Original
 
 ![sitio](./assets/sitio.JPG)
 
@@ -11,25 +15,21 @@
 Para ver todas las pantallas revisa el documento [PDF](./documentation/cvUpdate2023.pdf)
 
 
-Para ingresar al CV interactivo haz click en el siguiente enlace:
-
-[CV_Reyes_Axel](https://axlgoze.github.io/Challenge_ONE_Frontend/)
-
 
 ### To do list
 - Revisar imagen de batata
 - integrar barras de progreso en competencias*
 - Hacer menu sticky*
-- ~~Modificar nombre completo, completar cuando se amplie a tablet y desktop o reducir tamaño fuente~~
-- ~~acualizar pantallas en readme file~~
 - añadir boton para convertir documento a PDF*
 - trabajar logica JS
-- responsive design: ~~mobile~~ ~~tablet~~, desktop
-- agregar funcionalidad hover a: fichas skills y otras. inputs (investigar como hacer para cuando este activo cambie su estilo)
-- agregar documentacion a gitignore
 
 ## Done
 
+- ~~agregar funcionalidad hover~~
+- ~~Modificar nombre completo, completar cuando se amplie a tablet y desktop o reducir tamaño fuente~~
+- ~~acualizar pantallas en readme file~~
+- ~~agregar documentacion a gitignore~~
+- responsive design: ~~mobile~~ ~~tablet~~, ~~desktop~~
 - ~~Verificar tamaño de fuente de competencias para mobil ¿1 rem es suficiente?~~
 - ~~Elegir paleta de colores~~
 - ~~Actualizar assets file~~

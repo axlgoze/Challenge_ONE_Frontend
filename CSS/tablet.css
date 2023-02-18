@@ -114,7 +114,7 @@
     width: 150px;
     height: 90px;
     align-self: center;
-
+}
 
 
 .academic__courses{
@@ -161,4 +161,7 @@
 
 .formcontato__textarea{
     width: 100%;
+}
+.zoom:hover{
+    transform: scale(1.1);
 }
