@@ -17,14 +17,14 @@ Para ver todas las pantallas revisa el documento [PDF](./documentation/cvUpdate2
 
 
 ### To do list
-- Revisar imagen de batata
 - integrar barras de progreso en competencias*
 - Hacer menu sticky*
 - añadir boton para convertir documento a PDF*
-- trabajar logica JS
 
 ## Done
 
+- ~~Revisar imagen de batata~~
+- ~~trabajar logica JS~~
 - ~~agregar funcionalidad hover~~
 - ~~Modificar nombre completo, completar cuando se amplie a tablet y desktop o reducir tamaño fuente~~
 - ~~acualizar pantallas en readme file~~
